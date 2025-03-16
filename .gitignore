@@ -9,7 +9,6 @@
 .guides/secure/test-cases/**/*.java
 .guides/secure/user-libs/*.jar
 .guides/secure/user-submissions/*.java
-*.txt
 
 libs/*.jar
 submit/*.java
