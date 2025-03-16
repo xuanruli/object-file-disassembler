@@ -17,3 +17,10 @@ tests/*
 !tests/.gitkeep
 
 TEST-junit-*.xml
+
+submit/autograder_test/
+.guides/PennSim/
+.DS_Store
+.codio
+.settings
+*.o
