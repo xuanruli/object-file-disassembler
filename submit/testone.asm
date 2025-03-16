@@ -1,0 +1,3 @@
+.CODE
+ADD R1, R2, R3
+.DATA

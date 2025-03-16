@@ -1,0 +1,24 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     lc4
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002C10, symSize: 0xC4 }
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002C10, symSize: 0xC4 }
+  - { offsetInCU: 0x26, offset: 0x344, size: 0x8, addend: 0x0, symName: _add_to_list, symObjAddr: 0x0, symBinAddr: 0x100002CD4, symSize: 0x1AC }
+  - { offsetInCU: 0xA7, offset: 0x3C5, size: 0x8, addend: 0x0, symName: _add_to_list, symObjAddr: 0x0, symBinAddr: 0x100002CD4, symSize: 0x1AC }
+  - { offsetInCU: 0x123, offset: 0x441, size: 0x8, addend: 0x0, symName: _search_address, symObjAddr: 0x1AC, symBinAddr: 0x100002E80, symSize: 0x70 }
+  - { offsetInCU: 0x159, offset: 0x477, size: 0x8, addend: 0x0, symName: _search_opcode, symObjAddr: 0x21C, symBinAddr: 0x100002EF0, symSize: 0x98 }
+  - { offsetInCU: 0x1AB, offset: 0x4C9, size: 0x8, addend: 0x0, symName: _print_list, symObjAddr: 0x2B4, symBinAddr: 0x100002F88, symSize: 0x1C4 }
+  - { offsetInCU: 0x1CF, offset: 0x4ED, size: 0x8, addend: 0x0, symName: _delete_list, symObjAddr: 0x478, symBinAddr: 0x10000314C, symSize: 0xF8 }
+  - { offsetInCU: 0x26, offset: 0x563, size: 0x8, addend: 0x0, symName: _open_file, symObjAddr: 0x0, symBinAddr: 0x100003244, symSize: 0x68 }
+  - { offsetInCU: 0x42, offset: 0x57F, size: 0x8, addend: 0x0, symName: _open_file, symObjAddr: 0x0, symBinAddr: 0x100003244, symSize: 0x68 }
+  - { offsetInCU: 0x78, offset: 0x5B5, size: 0x8, addend: 0x0, symName: _parse_file, symObjAddr: 0x68, symBinAddr: 0x1000032AC, symSize: 0x3CC }
+  - { offsetInCU: 0x140, offset: 0x67D, size: 0x8, addend: 0x0, symName: _reverse_endian, symObjAddr: 0x434, symBinAddr: 0x100003678, symSize: 0x24 }
+  - { offsetInCU: 0x26, offset: 0x942, size: 0x8, addend: 0x0, symName: _reverse_assemble, symObjAddr: 0x0, symBinAddr: 0x10000369C, symSize: 0x248 }
+  - { offsetInCU: 0x4D, offset: 0x969, size: 0x8, addend: 0x0, symName: _convert, symObjAddr: 0x248, symBinAddr: 0x1000038E4, symSize: 0x94 }
+  - { offsetInCU: 0x72, offset: 0x98E, size: 0x8, addend: 0x0, symName: _convert.string, symObjAddr: 0x1B7B, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xCA, offset: 0x9E6, size: 0x8, addend: 0x0, symName: _reverse_assemble, symObjAddr: 0x0, symBinAddr: 0x10000369C, symSize: 0x248 }
+  - { offsetInCU: 0x1C4, offset: 0xAE0, size: 0x8, addend: 0x0, symName: _add_assemblyImm_list, symObjAddr: 0x2DC, symBinAddr: 0x100003978, symSize: 0x190 }
+  - { offsetInCU: 0x25E, offset: 0xB7A, size: 0x8, addend: 0x0, symName: _add_assembly_list, symObjAddr: 0x46C, symBinAddr: 0x100003B08, symSize: 0x16C }
+  - { offsetInCU: 0x2F8, offset: 0xC14, size: 0x8, addend: 0x0, symName: _write_asm_file, symObjAddr: 0x5D8, symBinAddr: 0x100003C74, symSize: 0x180 }
+...
