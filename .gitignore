@@ -18,8 +18,9 @@ tests/*
 
 TEST-junit-*.xml
 
-submit/autograder_test/
-.guides/PennSim/
+autograder_test/
+/autograder_test/
+/.guides/PennSim/
 .DS_Store
 .codio
 .settings
